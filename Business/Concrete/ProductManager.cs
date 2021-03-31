@@ -20,7 +20,8 @@ namespace Business.Concrete
         {
             //İş Kodları
             //Yetkisi var mı?
-            return _productDal.GetAll();        }
+            return _productDal.GetAll();
+        }
 
         public IEnumerable<object> GetAllByCategory(int v)
         {
